@@ -6,7 +6,7 @@ import UserRoute from "./routes/UserRoute.js"
 const app = express();
 
 // connect to mongoo db 
-mongoose .connect('mongodb+srv://Doniws:TidakAda@cluster0.nuaotjj.mongodb.net/test',{
+mongoose.connect('mongodb database cennection',{
     useNewUrlParser : true ,
     useUnifiedTopology : true 
 })
